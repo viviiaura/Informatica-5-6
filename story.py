@@ -24,7 +24,7 @@ def main():
     print("Hello", name +"!")
 
     print("This is your story:")
-    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided \t today {goal}." )
+    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today {goal}." )
 
 
 if __name__ == "__main__":
