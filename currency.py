@@ -1,19 +1,14 @@
 def main():
 
-    col = float(input("How much Columbian pesos?"))
-    per = float(print("How much Peruvian soles? "))
-    braz = float(print("How much Brazilian reais? "))
+    col = float(input("How much Columbian pesos? "))
+    per = float(input("How much Peruvian soles? "))
+    braz = float(input("How much Brazilian reais? "))
 
+    usd = (col * 0.00032) + (per * 0.30) + (braz * 0.19)
+    mxn = round(usd * 17.07, 2)
 
-    cpp = (col * 0.0054)
-    cpd = (col * 0.00032)
-    print("pesos to MX:", cpp)
-    print("pesos to USD:", cpd)
-
-    perp = (per * 5.07)
-    perd = (per * 0.30)
-    print("soles to MX:", perp)
-
+    print(f"USD: {round(usd, 2)}")
+    print(f"MXN: {mxn}")
 
 
 
