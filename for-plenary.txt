@@ -1,0 +1,16 @@
+Write a description for a while loop.
+- The while loop is a loop that repeats when true unless broken.
+
+Write a description for a for loop
+- The for loop is a loop that performs over a list or a sequence and executes the code for each item in that sequence
+
+Compare a while loop to a for loop
+- The while loop
+It repeats until it becomes false
+It requires a break
+Infitite loop
+
+- The for loop
+It's repetition is limited
+It uses lists
+Finite loop

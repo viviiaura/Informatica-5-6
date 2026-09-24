@@ -4,7 +4,15 @@ def main():
 
     while True:
         answer = int(input("Give me a number 1-10 "))
-        if answer <= 10:
+
+        if answer < 0:
+            print("sooo I said 1-10")
+
+        elif answer > 10:
+            print("kay so I said 1-10")
+
+
+        elif answer <= 10:
             print(f"Here is the {answer} times table")
             for i in range(1,11):
 
@@ -16,8 +24,8 @@ def main():
             elif another == "no":
                 break
 
-        elif answer > 10:
-            print("kay so I said 1-10")
+
+
 
 
 
